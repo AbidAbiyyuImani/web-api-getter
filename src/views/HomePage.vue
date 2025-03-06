@@ -5,7 +5,7 @@ const ourMenu = ref([
     title: "Get Word Definitions (english)",
     author: "Free Dictionary API",
     description:
-      "Checking single word definitions in English language and the word details.",
+      "Checking single word definitions in English.",
     link: "/get-word-def",
   },
 ]);

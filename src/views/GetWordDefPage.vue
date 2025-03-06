@@ -16,7 +16,7 @@ const getData = async (param) => {
     <h1 class="text-3xl md:text-4xl lg:text-5xl text-center mb-5">
       Search Word Definitions
     </h1>
-    <form action="#" class="flex justify-center mb-3">
+    <div class="flex justify-center mb-3">
       <input
         type="text"
         v-model="param"
@@ -30,7 +30,7 @@ const getData = async (param) => {
       >
         Search
       </button>
-    </form>
+    </div>
     <div
       v-if="DataWordDefinitions.length > 0"
       class="flex flex-col items-center"
